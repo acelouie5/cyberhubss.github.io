@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../imagee/CyberHubIcon.png" type = "image/x-icon">
+    <title>CyberHub</title>
+    <link rel="stylesheet" href="css/aboutpage.css">
+  </head>
+  <body>
+ 
+    <section>
+        
+            <div class="hero">
+                <div class="navbar">
+                    <a href="CyberHubHomepage.html" ><img src="imagee/CyberHub(BlackVer).png"  class="logo"></a>
+                    <ul>
+                        <li><a  style="text-decoration:none" href="HomePage.html">Homes</a></li>
+                        <li><a  style="text-decoration:none" href="Contactpage.html">Contact</a></li>
+                        <li><a  style="text-decoration:none" href="Aboutpage.html">Services</a></li>
+                        <li><a  style="text-decoration:none" href="Aboutpage.html">About</a></li>
+                    </ul>
+                
+                </div>
+                <br>
+               <section><h1>Introduce Our Developers</h1></section>
+            
+      
+    </section>
+    <section>
+        <div class="container reveal">
+          <h2>About Us</h2>
+          <div class="cards">
+            <div class="text-card">
+                <img src="imagee/CyberHubIcon.png">
+            </div>
+            <div class="text-card">
+           
+              <p>As a developer, We feel that we have responsibility to inform everyone about the dangers of malware. Malware is a type of software designed to harm computer systems, steal sensitive information, and cause chaos in our digital lives. It can be in the form of viruses, trojans, ransomware, and spyware, among others.
+
+The effects of malware can be devastating. It can steal your personal and financial information, damage your computer system, and render your important files inaccessible. Moreover, it can cause businesses to lose millions of dollars in data breaches and cyber-attacks.
+
+To protect yourself and your business from malware, you should take several precautions. Firstly, always keep your computer system and software up-to-date. This ensures that any security vulnerabilities are patched and that you are protected against the latest malware threats. Secondly, use reputable antivirus and anti-malware software that can detect and remove any malicious software from your system. Thirdly, be vigilant when opening emails, downloading files, and browsing the internet. Malware often comes disguised as legitimate software or emails and can be hard to detect.</p>
+            </div>
+          
+          </div>
+        </div>
+      </section>
+    <section>
+
+      <div class="container reveal">
+        <h1>The Developers</h1>
+        <div class="cards">
+          <div class="text-card">
+            <img src="imagee/mendoza.jpg">
+            <h3>Ace Louie Mendoza</h3>
+            <p>Project Manager</p>
+          </div>
+          <div class="text-card">
+            <img src="imagee/naval.jpg">
+            <h3>Kyle Gabriel Naval</h3>
+            <p>Researcher</p>
+          </div>
+          <div class="text-card">
+            <img src="imagee/gg.jpg">
+            <h3>John Mark Campos</h3>
+            <p>Project Designer</p>
+          </div>
+          <div class="text-card">
+            <img src="imagee/balat.jpg">
+            <h3>Mark Christian Balatbat</h3>
+            <p>Researcher</p>
+          </div>
+          <div class="text-card">
+            <img src="imagee/tablo.jpg">
+            <h3>Mark Christian Tablo</h3>
+            <p>Project Designer</p>
+          </div>
+        </div>
+      </div>
+    </section>
+   
+    <section>
+      <div class="container reveal">
+        <footer>
+            <p>Copyright &copy; 2023 Group 3 CyberHub. All rights reserved.</p>
+            
+        </footer>
+      </div>
+    </section>
+
+    <script type="text/javascript">
+    window.addEventListener('scroll', reveal);
+
+    function reveal(){
+      var reveals = document.querySelectorAll('.reveal');
+
+      for(var i = 0; i < reveals.length; i++){
+
+        var windowheight = window.innerHeight;
+        var revealtop = reveals[i].getBoundingClientRect().top;
+        var revealpoint = 150;
+
+        if(revealtop < windowheight - revealpoint){
+          reveals[i].classList.add('active');
+        }
+        else{
+          reveals[i].classList.remove('active');
+        }
+      }
+    }
+    </script>
+
+  </body>
+</html>
+      

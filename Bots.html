@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../imagee/CyberHubIcon.png" type = "image/x-icon">
+    <title>CyberHub</title>
+    <link rel="stylesheet" href="css/allmalware.css">
+  </head>
+  <body>
+ 
+    <section>
+        
+            <div class="hero">
+                <div class="navbar">
+                    <a href="CyberHubHomepage.html" ><img src="imagee/CyberHub(BlackVer).png"  class="logo"></a>
+                    <ul>
+                      <li><a  style="text-decoration:none" href="HomePage.html">Homes</a></li>
+                      <li><a  style="text-decoration:none" href="Contactpage.html">Contact</a></li>
+                      <li><a  style="text-decoration:none" href="Aboutpage.html">Topic</a></li>
+                      <li><a  style="text-decoration:none" href="Aboutpage.html">About</a></li>
+                    </ul>
+                
+                </div>
+                <br>
+               <section><h1>Introduction About Bot</h1></section>
+            
+      
+    </section>
+    <section>
+        <div class="container reveal">
+          <h2>What is Bot?</h2>
+          <div class="cards">
+            <div class="text-card">
+                <img src="imagee/virus.jpg">
+            </div>
+            <div class="text-card">
+           
+              <p>A bot virus, also known as a botnet, is a type of malware that infects a computer system and turns it into a part of a network of compromised computers, also known as a "botnet."
+
+                Once a computer is infected with a bot virus, it becomes a "bot" that is under the control of a remote attacker, known as a "botmaster." The botmaster can use the bot to carry out a variety of malicious activities, such as launching distributed denial of service (DDoS) attacks, sending spam emails, stealing data, and spreading malware.</p>
+            </div>
+          
+          </div>
+        </div>
+      </section>
+    <section>
+      
+        <div class="container reveal">
+          <h2>PREVENTIONS And Solutions</h2>
+          <div class="cards">
+            <div class="text-card">
+                <img src="imagee/computervirus.png">
+            </div>
+            <div class="text-card">
+           
+             <ul><strong>Install a Windows Firewalls</strong>
+              <li> •	Though sometimes tempting for end users to disable, a properly configured Windows firewall can block many network-based exploits. This measure is especially appropriate for large agencies with many similarly configured machines.</li>
+             </ul>
+             <ul><strong>Disable AutoRun</strong>
+              <li>•	The autorun feature, which automatically installs software, should be disabled to prevent operating systems from blindly launching commands from foreign sources.</li>
+             </ul>
+             <ul><strong>Break Password Trust</strong>
+              <li>•	Judicious control over local accounts, especially the local administrator account, is critical to isolating and eliminating threats. Disabling computers’ capability to automatically connect to each other closes the path that botnets take to spread to the internal network. This is particularly critical in environments were machines store highly confidential data.	</li>
+             </ul>
+             
+            </div>
+          
+          </div>
+        </div>
+     
+      
+    </section>
+    <section>
+      
+      <div class="container reveal">
+        <h2>PREVENTIONS And Solutions</h2>
+        <div class="cards">
+         
+          <div class="text-card">
+         
+            <ul><strong>Consider Network Compartmentalization</strong>
+              <li>•	IT managers should establish private virtual local area networks (VLANs), or access control lists (ACLs) between subnetworks to limit exposure. This strategy is not a good fit, however, in environments that mix voice and data communications, as it tends to break the ability to negotiate virtual circuits on the fly.</li>
+             </ul>
+             <ul><strong>Provide Least Privilege</strong>
+              <li>•	Preventing users from being administrators also makes it more difficult for their user account credentials to spread malware, should the computer become infected.</li>
+             </ul>
+             <ul><strong>Install Host-Based Intrusion Prevention</strong>
+              <li> •	This approach does not fix technical flaws or holes in operating systems or application software, but it can reduce the chances that exploits will be successful. These tools are highly effective, but they are expensive and challenging to deploy.	</li>
+             </ul>
+          </div>
+          <div class="text-card">
+            <img src="imagee/computerv.jpg">
+        </div>
+        </div>
+      </div>
+   
+    
+  </section>
+   
+    <section>
+      <div class="container reveal">
+        <footer>
+            <p>Copyright &copy; 2023 Group 3 CyberHub. All rights reserved.</p>
+            
+        </footer>
+      </div>
+    </section>
+
+    <script type="text/javascript">
+    window.addEventListener('scroll', reveal);
+
+    function reveal(){
+      var reveals = document.querySelectorAll('.reveal');
+
+      for(var i = 0; i < reveals.length; i++){
+
+        var windowheight = window.innerHeight;
+        var revealtop = reveals[i].getBoundingClientRect().top;
+        var revealpoint = 150;
+
+        if(revealtop < windowheight - revealpoint){
+          reveals[i].classList.add('active');
+        }
+        else{
+          reveals[i].classList.remove('active');
+        }
+      }
+    }
+    </script>
+
+  </body>
+</html>
+      

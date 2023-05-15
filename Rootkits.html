@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../imagee/CyberHubIcon.png" type = "image/x-icon">
+    <title>CyberHub</title>
+    <link rel="stylesheet" href="css/allmalware.css">
+  </head>
+  <body>
+ 
+    <section>
+        
+            <div class="hero">
+                <div class="navbar">
+                    <a href="CyberHubHomepage.html" ><img src="imagee/CyberHub(BlackVer).png"  class="logo"></a>
+                    <ul>
+                      <li><a  style="text-decoration:none" href="HomePage.html">Homes</a></li>
+                      <li><a  style="text-decoration:none" href="Contactpage.html">Contact</a></li>
+                      <li><a  style="text-decoration:none" href="Aboutpage.html">Topic</a></li>
+                      <li><a  style="text-decoration:none" href="Aboutpage.html">About</a></li>
+                    </ul>
+                
+                </div>
+                <br>
+               <section><h1>Introduction About Rootkit</h1></section>
+            
+      
+    </section>
+    <section>
+        <div class="container reveal">
+          <h2>What is Rootkit?</h2>
+          <div class="cards">
+            <div class="text-card">
+                <img src="imagee/virus.jpg">
+            </div>
+            <div class="text-card">
+           
+              <p>
+                A rootkit is a type of malicious software (malware) that is designed to hide its presence and activities on a computer system.
+                
+                Once installed, a rootkit can give an attacker unauthorized access to a computer system and allow them to execute malicious actions without being detected by the system's security software or the user. Rootkits are often used by attackers to maintain a persistent presence on a compromised system and to conceal other malicious software, such as spyware, viruses, and Trojans.</p>
+            </div>
+          
+          </div>
+        </div>
+      </section>
+    <section>
+      
+        <div class="container reveal">
+          <h2>PREVENTIONS And Solutions</h2>
+          <div class="cards">
+            <div class="text-card">
+                <img src="imagee/computervirus.png">
+            </div>
+            <div class="text-card">
+           
+             <ul><strong>Phishing Awareness</strong>
+              <li> •	It is therefore vital for end-users to be aware of common phishing attack tactics, always check a sender’s email address, and never follow links directly from email messages.</li>
+             </ul>
+             <ul><strong>Software Updates</strong>
+              <li>•	Updating software at all times and ensuring it is set to automatically update is one of the best defenses against rootkits.</li>
+             </ul>
+             <ul><strong>Use Antivirus Solutions</strong>
+              <li>•	Antivirus software alone is not a solid defense against cyberattacks. However, antivirus systems as part of an overarching security solution are integral to the fight against malware and help users discover the presence of rootkits.</li>
+             </ul>
+             
+            </div>
+          
+          </div>
+        </div>
+     
+      
+    </section>
+    <section>
+      
+      <div class="container reveal">
+        <h2>PREVENTIONS And Solutions</h2>
+        <div class="cards">
+         
+          <div class="text-card">
+         
+            <ul><strong>Consider Network Compartmentalization</strong>
+              <li>•	IT managers should establish private virtual local area networks (VLANs), or access control lists (ACLs) between subnetworks to limit exposure. This strategy is not a good fit, however, in environments that mix voice and data communications, as it tends to break the ability to negotiate virtual circuits on the fly.</li>
+             </ul>
+             <ul><strong>Provide Least Privilege</strong>
+              <li>•	Preventing users from being administrators also makes it more difficult for their user account credentials to spread malware, should the computer become infected.</li>
+             </ul>
+             <ul><strong>Install Host-Based Intrusion Prevention</strong>
+              <li> •	This approach does not fix technical flaws or holes in operating systems or application software, but it can reduce the chances that exploits will be successful. These tools are highly effective, but they are expensive and challenging to deploy.	</li>
+             </ul>
+          </div>
+          <div class="text-card">
+            <img src="imagee/computerv.jpg">
+        </div>
+        </div>
+      </div>
+   
+    
+  </section>
+   
+    <section>
+      <div class="container reveal">
+        <footer>
+            <p>Copyright &copy; 2023 Group 3 CyberHub. All rights reserved.</p>
+            
+        </footer>
+      </div>
+    </section>
+
+    <script type="text/javascript">
+    window.addEventListener('scroll', reveal);
+
+    function reveal(){
+      var reveals = document.querySelectorAll('.reveal');
+
+      for(var i = 0; i < reveals.length; i++){
+
+        var windowheight = window.innerHeight;
+        var revealtop = reveals[i].getBoundingClientRect().top;
+        var revealpoint = 150;
+
+        if(revealtop < windowheight - revealpoint){
+          reveals[i].classList.add('active');
+        }
+        else{
+          reveals[i].classList.remove('active');
+        }
+      }
+    }
+    </script>
+
+  </body>
+</html>
+      
